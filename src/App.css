@@ -1,0 +1,63 @@
+/* Styles spécifiques à l'application */
+.app-container {
+  min-height: 100vh;
+}
+
+/* Animations pour les notifications */
+@keyframes slideInDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.notification-enter {
+  animation: slideInDown 0.3s ease-out;
+}
+
+/* Styles pour les images de promotions */
+.promotion-image {
+  transition: transform 0.3s ease;
+}
+
+.promotion-image:hover {
+  transform: scale(1.05);
+}
+
+/* Styles pour les boutons flottants */
+.floating-button {
+  box-shadow: 0 4px 20px rgba(16, 185, 129, 0.3);
+}
+
+.floating-button:hover {
+  box-shadow: 0 6px 25px rgba(16, 185, 129, 0.4);
+}
+
+/* Styles pour les cartes de promotion */
+.promotion-card {
+  transition: all 0.3s ease;
+}
+
+.promotion-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour la navigation mobile */
+.mobile-nav {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* Animations pour les formulaires */
+.form-field {
+  transition: all 0.2s ease;
+}
+
+.form-field:focus {
+  transform: translateY(-1px);
+}

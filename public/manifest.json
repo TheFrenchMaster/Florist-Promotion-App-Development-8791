@@ -1,0 +1,52 @@
+{
+  "name": "FleurNotif - Notifications Fleuriste",
+  "short_name": "FleurNotif",
+  "description": "Application pour fleuristes avec notifications de promotions",
+  "theme_color": "#10b981",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Voir les promotions",
+      "short_name": "Promotions",
+      "description": "Voir toutes les promotions actuelles",
+      "url": "/",
+      "icons": [
+        {
+          "src": "pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Espace fleuriste",
+      "short_name": "Fleuriste",
+      "description": "Accéder à l'espace de gestion",
+      "url": "/#/florist/login",
+      "icons": [
+        {
+          "src": "pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "categories": ["business", "shopping", "lifestyle"]
+}
